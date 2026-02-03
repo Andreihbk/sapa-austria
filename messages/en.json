@@ -1,6 +1,44 @@
 {
-    "HomePage": {
-      "title": "Quality Austrian Screed",
-      "description": "Professional flooring solutions."
+  "Navbar": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Quality Austrian Screed",
+    "subtitle": "Professional flooring solutions for residential homes, apartments, and industrial warehouses. Precision and durability.",
+    "cta": "Get a Quote"
+  },
+  "Services": {
+    "title": "Our Services",
+    "subtitle": "High-quality screed solutions for any project size.",
+    "screed": {
+      "title": "Liquid Screed",
+      "desc": "Perfectly level floors for apartments and homes. Ideal coverage for underfloor heating systems."
+    },
+    "cement": {
+      "title": "Cement Screed",
+      "desc": "Robust and durable traditional screed. Perfect for garages, warehouses, and industrial spaces."
+    }
+  },
+  "Projects": {
+    "title": "Recent Projects",
+    "subtitle": "Explore our portfolio of residential and industrial flooring across Austria.",
+    "p1": {
+      "title": "Residential House",
+      "location": "Vienna",
+      "desc": "Perfectly leveled liquid screed for a modern family home."
+    },
+    "p2": {
+      "title": "Logistics Warehouse",
+      "location": "Graz",
+      "desc": "Heavy-duty cement screed for a 2000m² industrial space."
+    },
+    "p3": {
+      "title": "Apartment Complex",
+      "location": "Linz",
+      "desc": "Complete flooring solution for a 12-unit residential building."
     }
   }
+}

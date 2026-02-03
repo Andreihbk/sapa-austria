@@ -1,6 +1,44 @@
 {
-    "HomePage": {
-      "title": "Qualitätsestrich aus Österreich",
-      "description": "Professionelle Bodenlösungen."
+  "Navbar": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "projects": "Referenzen",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Qualitätsestrich aus Österreich",
+    "subtitle": "Professionelle Bodenlösungen für Wohn- und Gewerbeprojekte. Präzision, Langlebigkeit und österreichische Standards.",
+    "cta": "Angebot anfordern"
+  },
+  "Services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Hochwertige Estrichlösungen für jede Projektgröße.",
+    "screed": {
+      "title": "Fließestrich",
+      "desc": "Perfekt ebene Böden für Wohnungen und Häuser. Ideale Ummantelung für Fußbodenheizungen."
+    },
+    "cement": {
+      "title": "Zementestrich",
+      "desc": "Robuster und langlebiger traditioneller Estrich. Perfekt für Garagen, Lagerhallen und Industrieböden."
+    }
+  },
+  "Projects": {
+    "title": "Ausgewählte Referenzen",
+    "subtitle": "Einblick in unsere Projekte aus dem Wohn- und Industriebau.",
+    "p1": {
+      "title": "Einfamilienhaus",
+      "location": "Wien",
+      "desc": "Perfekt nivellierter Fließestrich für ein modernes Wohnhaus."
+    },
+    "p2": {
+      "title": "Logistikhalle",
+      "location": "Graz",
+      "desc": "Hochbelastbarer Zementestrich für 2000m² Industriefläche."
+    },
+    "p3": {
+      "title": "Wohnanlage",
+      "location": "Linz",
+      "desc": "Komplette Bodenlösung für einen Wohnkomplex mit 12 Einheiten."
     }
   }
+}
