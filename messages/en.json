@@ -6,7 +6,7 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Quality Austrian Screed",
+    "title": "Quality Screed in Wien",
     "subtitle": "Professional flooring solutions for residential homes, apartments, and industrial warehouses. Precision and durability.",
     "cta": "Get a Quote"
   },
@@ -40,5 +40,21 @@
       "location": "Linz",
       "desc": "Complete flooring solution for a 12-unit residential building."
     }
-  }
+  },
+  "Footer": {
+      "aboutDesc": "Your trusted partner for quality screed and flooring in Austria.",
+      "links": "Quick Links",
+      "contact": "Contact Info",
+      "rights": "All rights reserved."
+    },
+  "Contact"
+  : {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form below and we will get back to you shortly.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Project Details (type of screed, area in sqm, etc.)",
+    "send": "Send Message",
+    "close": "Close"
+  }  
 }

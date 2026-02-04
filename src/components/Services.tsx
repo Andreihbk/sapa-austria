@@ -28,7 +28,7 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Grid Carduri - Acum doar 2 elemente */}
+        {/* Grid Carduri - doar 2 elemente */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <div 

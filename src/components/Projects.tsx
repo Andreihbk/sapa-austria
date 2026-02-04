@@ -4,7 +4,21 @@ import { MapPin } from "lucide-react";
 export default function Projects() {
   const t = useTranslations("Projects");
 
-  const projects = ["p1", "p2", "p3"];
+  // Definim imaginile pentru fiecare proiect (Stock Photos)
+  const projectsData = [
+    {
+      key: "p1", // Einfamilienhaus (Casă)
+      img: "https://images.unsplash.com/photo-1600596542815-27b88e360290?q=80&w=2075&auto=format&fit=crop"
+    },
+    {
+      key: "p2", // Logistikhalle (Hală)
+      img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+      key: "p3", // Wohnanlage (Bloc)
+      img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop"
+    }
+  ];
 
   return (
     <section id="projects" className="py-24 bg-gray-50">
@@ -21,27 +35,33 @@ export default function Projects() {
 
         {/* Grid Proiecte */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {projects.map((projectKey, index) => (
+          {projectsData.map((project, index) => (
             <div 
               key={index} 
-              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group"
             >
-              {/* PLACEHOLDER PENTRU POZĂ (Cutia gri) */}
-              <div className="h-48 bg-gray-300 w-full flex items-center justify-center text-gray-500 font-medium">
-                Image Placeholder {index + 1}
+              {/* IMAGINE REALĂ */}
+              <div className="h-56 w-full overflow-hidden relative">
+                <img 
+                  src={project.img} 
+                  alt="Project reference" 
+                  className="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
+                />
+                {/* Overlay fin la hover */}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300"></div>
               </div>
 
               {/* Conținut Text */}
               <div className="p-6">
                 <div className="flex items-center gap-2 text-blue-600 text-sm font-semibold mb-2">
                   <MapPin size={16} />
-                  <span>{t(`${projectKey}.location`)}</span>
+                  <span>{t(`${project.key}.location`)}</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  {t(`${projectKey}.title`)}
+                  {t(`${project.key}.title`)}
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  {t(`${projectKey}.desc`)}
+                  {t(`${project.key}.desc`)}
                 </p>
               </div>
             </div>

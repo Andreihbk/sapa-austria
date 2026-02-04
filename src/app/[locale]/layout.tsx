@@ -27,7 +27,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>; 
 }>) {
-  // 1. Așteptăm parametrii (Next.js cere asta mai nou)
+  // 1. Așteptăm parametrii 
   const { locale } = await params;
 
   // 2. Încărcăm traducerile de pe server

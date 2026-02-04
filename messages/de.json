@@ -6,7 +6,7 @@
     "contact": "Kontakt"
   },
   "Hero": {
-    "title": "Qualitätsestrich aus Österreich",
+    "title": "Qualitätsestrich aus Wien",
     "subtitle": "Professionelle Bodenlösungen für Wohn- und Gewerbeprojekte. Präzision, Langlebigkeit und österreichische Standards.",
     "cta": "Angebot anfordern"
   },
@@ -40,5 +40,20 @@
       "location": "Linz",
       "desc": "Komplette Bodenlösung für einen Wohnkomplex mit 12 Einheiten."
     }
+  },
+  "Footer": {
+    "aboutDesc": "Ihr zuverlässiger Partner für Qualitätsestrich und Bodenbeläge in Österreich.",
+    "links": "Schnelllinks",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Füllen Sie das Formular aus und wir melden uns in Kürze bei Ihnen.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "message": "Projektdetails (Estrichart, Fläche in m², etc.)",
+    "send": "Nachricht senden",
+    "close": "Schließen"
   }
 }
