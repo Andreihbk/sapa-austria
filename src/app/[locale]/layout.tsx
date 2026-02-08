@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  title: "Axi Bau - Professional Screed",
+  title: "Florica - Professional Screed",
   description: "Servicii profesionale de turnat șapă în Austria",
 };
 
