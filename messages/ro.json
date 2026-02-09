@@ -47,13 +47,13 @@
       "contact": "Informații Contact",
       "rights": "Toate drepturile rezervate."
     },
-    "ContactModal": {
+    "Contact": {
       "title": "Contactează-ne",
       "subtitle": "Completează formularul de mai jos și te vom contacta în scurt timp.",
       "name": "Nume Complet",
       "email": "Adresă de Email",
-      "details": "Detalii Proiect (tipul de șapă, mp, locație)",
-      "submit": "Trimite Mesaj",
+      "message": "Detalii Proiect (tipul de șapă, mp, locație)",
+      "send": "Trimite Mesaj",
       "sending": "Se trimite...",
       "success": "Mesaj trimis cu succes!",
       "error": "A apărut o eroare. Te rugăm să încerci din nou."
