@@ -8,7 +8,7 @@ export default function Projects() {
   const projectsData = [
     {
       key: "p1", // Einfamilienhaus (Casă)
-      img: "https://images.unsplash.com/photo-1600596542815-27b88e360290?q=80&w=2075&auto=format&fit=crop"
+      img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
     },
     {
       key: "p2", // Logistikhalle (Hală)

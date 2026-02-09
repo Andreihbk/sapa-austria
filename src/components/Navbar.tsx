@@ -75,6 +75,8 @@ export default function Navbar() {
                 <button onClick={() => changeLanguage('de')} className="hover:text-blue-600 font-bold">DE</button>
                 <span>|</span>
                 <button onClick={() => changeLanguage('en')} className="hover:text-blue-600 font-bold">EN</button>
+                <span>|</span>
+                <button onClick={() => changeLanguage('ro')} className="hover:text-blue-600 font-bold text-sm">RO</button>
               </div>
 
               {/* 4. Buton Telefon Corectat */}
@@ -119,6 +121,7 @@ export default function Navbar() {
                <div className="flex gap-4 px-3 py-2 font-bold text-blue-900 mt-2 border-t pt-2">
                   <button onClick={() => changeLanguage('de')}>DE</button>
                   <button onClick={() => changeLanguage('en')}>EN</button>
+                  <button onClick={() => changeLanguage('ro')}>RO</button>
                </div>
             </div>
           </div>

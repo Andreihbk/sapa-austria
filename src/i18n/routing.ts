@@ -3,7 +3,7 @@ import {createNavigation} from 'next-intl/navigation'; // Aici s-a schimbat impo
  
 export const routing = defineRouting({
   // A list of all locales that are supported
-  locales: ['en', 'de'],
+  locales: ['en', 'de','ro'],
  
   // Used when no locale matches
   defaultLocale: 'de'
@@ -12,4 +12,4 @@ export const routing = defineRouting({
 // Lightweight wrappers around Next.js' navigation APIs
 // that will consider the routing configuration
 export const {Link, redirect, usePathname, useRouter} =
-  createNavigation(routing); // Și aici s-a schimbat funcția apelată
+  createNavigation(routing); 

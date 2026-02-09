@@ -1,0 +1,61 @@
+{
+    "Metadata": {
+      "title": "SAPA AUSTRIA | Șape Mecanizate și Pardoseli",
+      "description": "Soluții profesionale de șapă pentru case și hale industriale în Austria."
+    },
+    "Navbar": {
+      "home": "Acasă",
+      "services": "Servicii",
+      "projects": "Proiecte",
+      "contact": "Contact"
+    },
+    "Hero": {
+      "title": "Șape Mecanizate de Calitate în Austria",
+      "subtitle": "Soluții profesionale de pardoseală pentru case rezidențiale, apartamente și hale industriale. Precizie și durabilitate.",
+      "cta": "Cere o Ofertă"
+    },
+    "Services": {
+      "title": "Serviciile Noastre",
+      "subtitle": "Soluții de șapă de înaltă calitate pentru orice dimensiune de proiect.",
+      "liquidTitle": "Șapă Lichidă",
+      "liquidDesc": "Nivelare perfectă pentru apartamente și case. Acoperire ideală pentru încălzirea în pardoseală.",
+      "cementTitle": "Șapă de Ciment",
+      "cementDesc": "Robustă și durabilă, sursa tradițională pentru garaje, subsoluri și spații industriale."
+    },
+    "Projects": {
+      "title": "Proiecte Recente",
+      "subtitle": "Explorează portofoliul nostru de lucrări rezidențiale și industriale în Austria.",
+      "p1": {
+        "title": "Casă Rezidențială",
+        "desc": "Șapă autonivelantă folosită pentru o casă modernă unifamilială.",
+        "location": "Viena"
+      },
+      "p2": {
+        "title": "Hală Logistică",
+        "desc": "Șapă industrială rezistentă pentru un depozit de 2000mp.",
+        "location": "Graz"
+      },
+      "p3": {
+        "title": "Complex de Apartamente",
+        "desc": "Soluție de șapă veche renovată pentru o clădire rezidențială.",
+        "location": "Linz"
+      }
+    },
+    "Footer": {
+      "aboutDesc": "Partenerul tău de încredere pentru șape și pardoseli de calitate în Austria.",
+      "links": "Link-uri Rapide",
+      "contact": "Informații Contact",
+      "rights": "Toate drepturile rezervate."
+    },
+    "ContactModal": {
+      "title": "Contactează-ne",
+      "subtitle": "Completează formularul de mai jos și te vom contacta în scurt timp.",
+      "name": "Nume Complet",
+      "email": "Adresă de Email",
+      "details": "Detalii Proiect (tipul de șapă, mp, locație)",
+      "submit": "Trimite Mesaj",
+      "sending": "Se trimite...",
+      "success": "Mesaj trimis cu succes!",
+      "error": "A apărut o eroare. Te rugăm să încerci din nou."
+    }
+  }
