@@ -1,8 +1,4 @@
 {
-    "Metadata": {
-      "title": "SAPA AUSTRIA | Șape Mecanizate și Pardoseli",
-      "description": "Soluții profesionale de șapă pentru case și hale industriale în Austria."
-    },
     "Navbar": {
       "home": "Acasă",
       "services": "Servicii",
@@ -17,10 +13,14 @@
     "Services": {
       "title": "Serviciile Noastre",
       "subtitle": "Soluții de șapă de înaltă calitate pentru orice dimensiune de proiect.",
-      "liquidTitle": "Șapă Lichidă",
-      "liquidDesc": "Nivelare perfectă pentru apartamente și case. Acoperire ideală pentru încălzirea în pardoseală.",
-      "cementTitle": "Șapă de Ciment",
-      "cementDesc": "Robustă și durabilă, sursa tradițională pentru garaje, subsoluri și spații industriale."
+      "screed": {
+        "title": "Șapă Lichidă",
+        "desc": "Nivelare perfectă pentru apartamente și case. Acoperire ideală pentru încălzirea în pardoseală."
+      },
+      "cement": {
+        "title": "Șapă de Ciment",
+        "desc": "Robustă și durabilă, șapa tradițională pentru garaje, subsoluri și spații industriale."
+      }
     },
     "Projects": {
       "title": "Proiecte Recente",
